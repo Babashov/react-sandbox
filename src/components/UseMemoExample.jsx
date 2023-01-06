@@ -26,6 +26,7 @@ function UseMemoExample() {
             value={number} 
             onChange = {(e)=> setNumber(e.target.value)} 
         />
+        <h3>Inc value: {inc}</h3>
         <h3 className="my-3">
             Sqrt of {number} is {sqrt}
         </h3>
